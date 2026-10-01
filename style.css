@@ -1846,6 +1846,24 @@ body {
   transform-origin: center bottom;
 }
 
+.bubbles .bubble {
+  -webkit-animation: none;
+  animation: none;
+  box-shadow: none;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.bubbles .bubble:nth-child(3),
+.bubbles .bubble:nth-child(5),
+.bubbles .bubble:nth-child(8),
+.bubbles .bubble:nth-child(9),
+.bubbles .bubble:nth-child(17),
+.bubbles .bubble:nth-child(16),
+.bubbles .bubble:nth-child(20) {
+  display: none;
+}
+
 @-webkit-keyframes love-burst {
   50%,
   100% {
