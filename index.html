@@ -335,7 +335,25 @@
     </div> -->
    
   </div>
-  <script src="main.js"></script>
+
+  <div class="bouquet-wrap" aria-hidden="true"></div>
+  <div class="bouquet-ribbon" aria-hidden="true"></div>
+  <button class="birthday-letter" type="button" aria-haspopup="dialog" aria-controls="birthday-message">
+    <span class="letter-to">For Wafaa</span>
+    <span class="letter-open">Open your birthday note</span>
+    <span class="letter-seal" aria-hidden="true">&#9829;</span>
+  </button>
+
+  <dialog class="birthday-message" id="birthday-message" aria-labelledby="message-title">
+    <article class="message-card">
+      <button class="message-close" type="button" aria-label="Close birthday message">&times;</button>
+      <p class="message-kicker">A little wish, just for you</p>
+      <h2 id="message-title">My dearest Wafaa</h2>
+      <p>Happy birthday to the person who makes my world brighter just by being in it. I hope your day is full of the same warmth, laughter, and love you give to everyone around you.</p>
+      <p>May this new year bring you beautiful surprises, lovely adventures, and every little thing your heart has been wishing for.</p>
+      <p class="message-signoff">I love you endlessly.<br />Happy birthday, sweetheart.</p>
+    </article>
+  </dialog>
 
   <div class="bubbles">
     <p class="title">Happy Birthday Wafaa</p>
